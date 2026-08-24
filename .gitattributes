@@ -1,0 +1,16 @@
+# Keep repository text consistent across Windows and Unix checkouts.
+* text=auto
+
+*.py text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Build artifacts and common media are binary.
+*.whl binary
+*.zip binary
+*.gz binary
+*.png binary
+*.jpg binary
+*.jpeg binary

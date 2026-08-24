@@ -1,0 +1,5 @@
+# Players with this scoreboard tag can see vanished players.
+admin_tag = "admin"
+
+# How often to notice an online player's admin-tag changes (20 ticks = 1 second).
+sync_period_ticks = 20
