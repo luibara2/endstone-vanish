@@ -31,8 +31,8 @@ Minecraft for Windows `1.26.4403` requires the locator-hide packet's nested comp
 
 ## Installation
 
-1. Build the wheel as described below, or download it from a trusted build.
-2. Copy `endstone_vanish-0.1.7-py3-none-any.whl` into the server's `plugins/` directory.
+1. Download the wheel from the [latest GitHub release](https://github.com/luibara2/endstone-vanish/releases/latest), or build it as described below.
+2. Copy the downloaded `endstone_vanish-*.whl` into the server's `plugins/` directory.
 3. Start an Endstone `0.11.9` server running BDS `1.26.44`.
 4. Confirm that the log reports protocol `2168` and that Vanish enabled successfully.
 
@@ -82,7 +82,7 @@ python -m unittest discover -s tests -v
 python -m hatchling build -t wheel
 ```
 
-The deployable artifact is written to `dist/endstone_vanish-0.1.7-py3-none-any.whl`. Continuous integration runs the test suite across supported Python versions and uploads the built wheel.
+The deployable artifact is written to `dist/endstone_vanish-*.whl`. Continuous integration runs the test suite across supported Python versions and uploads the built wheel.
 
 ## Verification status
 
